@@ -1,4 +1,4 @@
-function PSNR = psnr(distImg, origImg)
+function PSNR = PSNR(distImg, origImg)
 
     origImg = double(origImg);
     distImg = double(distImg);
